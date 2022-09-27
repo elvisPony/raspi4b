@@ -1,0 +1,83 @@
+[0.069s] Invoking command in '/home/pi/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.719s] -- The C compiler identification is GNU 11.2.0
+[1.256s] -- The CXX compiler identification is GNU 11.2.0
+[1.305s] -- Detecting C compiler ABI info
+[1.997s] -- Detecting C compiler ABI info - done
+[2.055s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.063s] -- Detecting C compile features
+[2.064s] -- Detecting C compile features - done
+[2.090s] -- Detecting CXX compiler ABI info
+[3.107s] -- Detecting CXX compiler ABI info - done
+[3.175s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.188s] -- Detecting CXX compile features
+[3.192s] -- Detecting CXX compile features - done
+[3.271s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.554s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[6.443s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.017s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[7.834s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.898s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.999s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.943s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.011s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.620s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.114s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.798s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.311s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[14.348s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.703s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.735s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.748s] -- Configured cppcheck include dirs: /home/pi/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[15.748s] -- Configured cppcheck exclude dirs and/or files: 
+[15.768s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.769s] -- Configured cpplint exclude dirs and/or files: 
+[15.787s] -- Added test 'lint_cmake' to check CMake code style
+[15.815s] -- Added test 'uncrustify' to check C / C++ code style
+[15.816s] -- Configured uncrustify additional arguments: 
+[15.832s] -- Added test 'xmllint' to check XML markup files
+[15.858s] -- Configuring done
+[16.143s] -- Generating done
+[16.180s] -- Build files have been written to: /home/pi/ros2_ws/build/examples_rclcpp_minimal_composition
+[16.312s] Invoked command in '/home/pi/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/examples_rclcpp_minimal_composition
+[16.314s] Invoking command in '/home/pi/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[16.791s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[57.987s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[108.180s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[111.367s] [ 33%] Built target composition_nodes
+[111.497s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[129.887s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[131.401s] [ 55%] Built target composition_publisher
+[131.519s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[151.259s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[152.832s] [ 77%] Built target composition_composed
+[152.953s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[171.499s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[172.893s] [100%] Built target composition_subscriber
+[172.941s] Invoked command in '/home/pi/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[173.165s] Invoking command in '/home/pi/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/examples_rclcpp_minimal_composition
+[173.195s] -- Install configuration: ""
+[173.197s] -- Execute custom install script
+[173.199s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[173.234s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[173.272s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[173.309s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[173.345s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[173.382s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[173.419s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[173.457s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[173.494s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[173.531s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[173.571s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[173.611s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[173.650s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[173.687s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[173.725s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[173.765s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[173.812s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[173.859s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[173.905s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[173.951s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[173.997s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[174.057s] Invoked command in '/home/pi/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/examples_rclcpp_minimal_composition

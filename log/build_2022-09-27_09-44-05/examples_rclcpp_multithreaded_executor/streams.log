@@ -1,0 +1,67 @@
+[0.074s] Invoking command in '/home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[0.418s] -- The C compiler identification is GNU 11.2.0
+[0.748s] -- The CXX compiler identification is GNU 11.2.0
+[0.788s] -- Detecting C compiler ABI info
+[1.209s] -- Detecting C compiler ABI info - done
+[1.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.247s] -- Detecting C compile features
+[1.251s] -- Detecting C compile features - done
+[1.270s] -- Detecting CXX compiler ABI info
+[1.874s] -- Detecting CXX compiler ABI info - done
+[1.906s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.909s] -- Detecting CXX compile features
+[1.912s] -- Detecting CXX compile features - done
+[1.947s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.504s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[4.118s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.573s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[5.119s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.192s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.280s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.164s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.199s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.949s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.204s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.609s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.386s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.396s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.397s] -- Configured cppcheck include dirs: 
+[9.398s] -- Configured cppcheck exclude dirs and/or files: 
+[9.406s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.406s] -- Configured cpplint exclude dirs and/or files: 
+[9.412s] -- Added test 'lint_cmake' to check CMake code style
+[9.421s] -- Added test 'uncrustify' to check C / C++ code style
+[9.422s] -- Configured uncrustify additional arguments: 
+[9.426s] -- Added test 'xmllint' to check XML markup files
+[9.443s] -- Configuring done
+[9.530s] -- Generating done
+[9.542s] -- Build files have been written to: /home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[9.612s] Invoked command in '/home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[9.615s] Invoking command in '/home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[9.897s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[63.430s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[65.714s] [100%] Built target multithreaded_executor
+[66.814s] Invoked command in '/home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[67.014s] Invoking command in '/home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[67.066s] -- Install configuration: ""
+[67.070s] -- Execute custom install script
+[67.076s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[67.132s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[67.185s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[67.242s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[67.294s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[67.347s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[67.394s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[67.444s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[67.501s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[67.547s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[67.592s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[67.639s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[67.683s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[67.729s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[67.776s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[67.819s] -- Symlinking: /home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[67.882s] Invoked command in '/home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/examples_rclcpp_multithreaded_executor

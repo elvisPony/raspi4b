@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.001071] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001344] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001506] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002431] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003177] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.005488] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.005669] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.005946] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.006193] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.006306] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.006422] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.006527] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.006667] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.006763] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.006883] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.008689] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.008974] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.009318] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.009518] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.009653] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.009819] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.009946] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.010084] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.011739] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.011982] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.099168] (-) TimerEvent: {}
+[0.200143] (-) TimerEvent: {}
+[0.301091] (-) TimerEvent: {}
+[0.401905] (-) TimerEvent: {}
+[0.502716] (-) TimerEvent: {}
+[0.603464] (-) TimerEvent: {}
+[0.704998] (-) TimerEvent: {}
+[0.806353] (-) TimerEvent: {}
+[0.907283] (-) TimerEvent: {}
+[1.008854] (-) TimerEvent: {}
+[1.109678] (-) TimerEvent: {}
+[1.210451] (-) TimerEvent: {}
+[1.311285] (-) TimerEvent: {}
+[1.412154] (-) TimerEvent: {}
+[1.512941] (-) TimerEvent: {}
+[1.613822] (-) TimerEvent: {}
+[1.714800] (-) TimerEvent: {}
+[1.816967] (-) TimerEvent: {}
+[1.917936] (-) TimerEvent: {}
+[2.018796] (-) TimerEvent: {}
+[2.119639] (-) TimerEvent: {}
+[2.220513] (-) TimerEvent: {}
+[2.321394] (-) TimerEvent: {}
+[2.422292] (-) TimerEvent: {}
+[2.523205] (-) TimerEvent: {}
+[2.624319] (-) TimerEvent: {}
+[2.727155] (-) TimerEvent: {}
+[2.827939] (-) TimerEvent: {}
+[2.929968] (-) TimerEvent: {}
+[3.030766] (-) TimerEvent: {}
+[3.131536] (-) TimerEvent: {}
+[3.232397] (-) TimerEvent: {}
+[3.333515] (-) TimerEvent: {}
+[3.434428] (-) TimerEvent: {}
+[3.537271] (-) TimerEvent: {}
+[3.638882] (-) TimerEvent: {}
+[3.740332] (-) TimerEvent: {}
+[3.841974] (-) TimerEvent: {}
+[3.942992] (-) TimerEvent: {}
+[4.044982] (-) TimerEvent: {}
+[4.082140] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/pi/ros2_ws/build/py_srvcli/build', 'install', '--prefix', '/home/pi/ros2_ws/install/py_srvcli', '--record', '/home/pi/ros2_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros2_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '172.20.10.2 55235 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/pi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/pi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7', 'TERM_PROGRAM_VERSION': '1.71.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c6f8d483-0e38-49f9-b2e4-06a93231b388.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install:/home/pi/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pi/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fb75a49ad3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/py_srvcli:/home/pi/ros2_ws/install/py_pubsub:/home/pi/ros2_ws/install/launch_testing_examples:/home/pi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_ws/install/examples_rclpy_minimal_service:/home/pi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/pi/ros2_ws/install/examples_rclpy_minimal_client:/home/pi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/pi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/pi/ros2_ws/install/examples_rclpy_guard_conditions:/home/pi/ros2_ws/install/examples_rclpy_executors:/home/pi/ros2_ws/install/examples_rclcpp_wait_set:/home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/pi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/pi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/pi/ros2_ws/install/examples_rclcpp_minimal_service:/home/pi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/pi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/pi/ros2_ws/install/examples_rclcpp_minimal_client:/home/pi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/pi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/pi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/pi/ros2_ws/install/examples_rclcpp_async_client:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/ros2_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.2 55235 172.20.10.3 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/pi/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/pi/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/pi/ros2_ws/build/launch_testing_examples:/home/pi/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/pi/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/pi/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_minimal_service:/home/pi/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_minimal_publisher:/home/pi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_minimal_client:/home/pi/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_minimal_action_server:/home/pi/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_minimal_action_client:/home/pi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_guard_conditions:/home/pi/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/pi/ros2_ws/build/examples_rclpy_executors:/home/pi/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/build/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/build/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/examples_rclcpp_wait_set:/home/pi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/pi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/pi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/pi/ros2_ws/install/examples_rclcpp_minimal_service:/home/pi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/pi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/pi/ros2_ws/install/examples_rclcpp_minimal_client:/home/pi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/pi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/pi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/pi/ros2_ws/install/examples_rclcpp_async_client:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description'}, 'shell': False}
+[4.145102] (-) TimerEvent: {}
+[4.246017] (-) TimerEvent: {}
+[4.346978] (-) TimerEvent: {}
+[4.448532] (-) TimerEvent: {}
+[4.549509] (-) TimerEvent: {}
+[4.651127] (-) TimerEvent: {}
+[4.752186] (-) TimerEvent: {}
+[4.857530] (-) TimerEvent: {}
+[4.958449] (-) TimerEvent: {}
+[5.059397] (-) TimerEvent: {}
+[5.160421] (-) TimerEvent: {}
+[5.264169] (-) TimerEvent: {}
+[5.365667] (-) TimerEvent: {}
+[5.469214] (-) TimerEvent: {}
+[5.570326] (-) TimerEvent: {}
+[5.671827] (-) TimerEvent: {}
+[5.772498] (-) TimerEvent: {}
+[5.858057] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[5.860886] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[5.862012] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[5.862946] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[5.863717] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[5.864359] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[5.872658] (-) TimerEvent: {}
+[5.873411] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[5.877310] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[5.878131] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[5.878725] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[5.879378] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/pi/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[5.880628] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[5.881422] (py_srvcli) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.882032] (py_srvcli) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.882673] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[5.886727] (py_srvcli) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/pi/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[5.890650] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc\n'}
+[5.892748] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[5.895123] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.902353] (py_srvcli) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.904408] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/pi/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[5.909899] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[5.972900] (-) TimerEvent: {}
+[6.003156] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/pi/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[6.004075] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/pi/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[6.005788] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/py_srvcli/install.log'\n"}
+[6.073182] (-) TimerEvent: {}
+[6.124004] (py_srvcli) CommandEnded: {'returncode': 0}
+[6.176065] (-) TimerEvent: {}
+[6.193705] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[6.196820] (-) EventReactorShutdown: {}
